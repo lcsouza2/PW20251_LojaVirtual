@@ -2,7 +2,7 @@ from data.database import obter_conexao
 from sql.cliente_sql import *
 from models.cliente import Cliente
 
-def criar_tabela():
+def criar_tabela_clientes():
     """Cria a tabela Cliente se ela não existir."""
     conexao = obter_conexao()
     cursor = conexao.cursor()
